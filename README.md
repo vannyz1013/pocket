@@ -1,16 +1,16 @@
-# Baibaoxiang 我的百宝箱
+# Pocket
 
-A campus super-app for UTAR students: a class timetable, a scientific
-calculator, a 2D and 3D grapher, attendance, deadlines, GPA, and 算命
-(a computed natal chart, BaZi, tarot and the I Ching) -- fifty-one apps
-behind one home screen you can arrange yourself.
+Your day, in one place: a student planner for UTAR students.
 
-Pocket stores app data in your browser on this device. When you sign in,
-schedule and account information can sync with Pocket's cloud service;
-friend features can also share schedule information. Course name mappings
-sync across your devices when you are signed in.
+- **Class timetable**: week view, exams and public holidays
+- **Today**: what's on now and next
+- **Deadlines, attendance, marks and GPA**
+- **Study tools**: a scientific calculator and a 2D / 3D grapher
 
-**<https://vannyz1013.github.io/baobaoxiang/>**
+Your data stays in your browser on this device. Sign in to sync your
+timetable and account across devices and share schedules with friends.
+
+**<https://vannyz1013.github.io/pocket/>**
 
 ---
 
