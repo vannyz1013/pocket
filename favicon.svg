@@ -1,20 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" role="img">
-  <title>Zinc</title>
-  <style>
-    .zinc-favicon__tile { fill: #F7F8F5; }
-    .zinc-mark__body { fill: var(--zinc-mark, #405B48); }
-    .zinc-mark__sparkle { fill: var(--zinc-accent, #88A98C); }
-
-    @media (prefers-color-scheme: dark) {
-      .zinc-favicon__tile { fill: #08131C; }
-      .zinc-mark__body {
-        fill: var(--zinc-mark-dark, var(--zinc-accent, #88A98C));
-      }
-    }
-  </style>
-  <rect class="zinc-favicon__tile" x="0" y="0" width="192" height="192" rx="42"/>
-  <path class="zinc-mark__body" d="M22 67 46 44h91q15 0-5 24l-110-1Z"/>
-  <path class="zinc-mark__body" d="m13 147 55-54q12-12 59-12l-51 52q-13 14-27 14H13Z"/>
-  <path class="zinc-mark__body" d="m70 148 47-47h57l-45 44q-5 3-59 3Z"/>
-  <path class="zinc-mark__sparkle" d="m157 26 4 13 13 4-13 4-4 13-4-13-13-4 13-4 4-13Z"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" role="img" aria-label="ZincPocket app icon">
+  <title>ZincPocket</title>
+  <rect class="pocket-icon__background" x="0" y="0" width="192" height="192" rx="42" fill="#88A98C"/>
+  <g class="pocket-icon__mark" transform="matrix(0.78 0 0 0.78 15 8)" fill="#FFFFFF">
+    <path class="zinc-mark__body" d="M22 67 46 44h91q15 0-5 24l-110-1Z"/>
+    <path class="zinc-mark__body" d="m13 147 55-54q12-12 59-12l-51 52q-13 14-27 14H13Z"/>
+    <path class="zinc-mark__body" d="m70 148 47-47h57l-45 44q-5 3-59 3Z"/>
+    <path class="zinc-mark__sparkle" d="m157 26 4 13 13 4-13 4-4 13-4-13-13-4 13-4 4-13Z"/>
+  </g>
+  <g class="pocket-icon__calendar" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <rect class="pocket-calendar__frame" x="96" y="98" width="75" height="68" rx="8"/>
+    <line x1="96" y1="117" x2="171" y2="117"/>
+    <line x1="114" y1="86" x2="114" y2="103"/>
+    <line x1="153" y1="86" x2="153" y2="103"/>
+  </g>
+  <g class="pocket-calendar__dates" fill="#FFFFFF">
+    <circle cx="111" cy="134" r="3.5"/>
+    <circle cx="133" cy="134" r="3.5"/>
+    <circle cx="155" cy="134" r="3.5"/>
+    <circle cx="111" cy="152" r="3.5"/>
+    <circle cx="133" cy="152" r="3.5"/>
+    <circle cx="155" cy="152" r="3.5"/>
+  </g>
 </svg>
