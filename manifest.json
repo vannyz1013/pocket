@@ -1,6 +1,6 @@
 {
-  "name": "Pocket",
-  "short_name": "Pocket",
+  "name": "ZincPocket",
+  "short_name": "ZincPocket",
   "description": "Your day, in one place. A student planner with a timetable, deadlines and study tools.",
   "start_url": "./",
   "scope": "./",
@@ -23,7 +23,7 @@
       "purpose": "any"
     },
     {
-      "src": "icon-512.png",
+      "src": "icon-512-maskable.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"

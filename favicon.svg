@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" role="img">
+  <title>Zinc</title>
+  <style>
+    .zinc-favicon__tile { fill: #F7F8F5; }
+    .zinc-mark__body { fill: var(--zinc-mark, #405B48); }
+    .zinc-mark__sparkle { fill: var(--zinc-accent, #88A98C); }
+
+    @media (prefers-color-scheme: dark) {
+      .zinc-favicon__tile { fill: #08131C; }
+      .zinc-mark__body {
+        fill: var(--zinc-mark-dark, var(--zinc-accent, #88A98C));
+      }
+    }
+  </style>
+  <rect class="zinc-favicon__tile" x="0" y="0" width="192" height="192" rx="42"/>
+  <path class="zinc-mark__body" d="M22 67 46 44h91q15 0-5 24l-110-1Z"/>
+  <path class="zinc-mark__body" d="m13 147 55-54q12-12 59-12l-51 52q-13 14-27 14H13Z"/>
+  <path class="zinc-mark__body" d="m70 148 47-47h57l-45 44q-5 3-59 3Z"/>
+  <path class="zinc-mark__sparkle" d="m157 26 4 13 13 4-13 4-4 13-4-13-13-4 13-4 4-13Z"/>
+</svg>
